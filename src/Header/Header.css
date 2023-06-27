@@ -1,0 +1,11 @@
+.header1 {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  font-family: "Oswald";
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background: #dbdbdb;
+}
+.products-cart {
+  padding: 0 2rem;
+}

@@ -1,0 +1,19 @@
+.cart_block {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .cart_block {
+    display: flex;
+    flex-direction: column;
+  }
+  .empty-cart-icon {
+    font-size: 10rem !important;
+  }
+  .sad-cart-icon {
+    font-size: 2rem !important;
+  }
+}
+
+body {
+  font-family: "Oswald";
+}

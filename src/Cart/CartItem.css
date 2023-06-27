@@ -1,0 +1,15 @@
+.cart-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cart-image {
+  object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+  .cart-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
